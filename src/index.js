@@ -4,13 +4,16 @@ import './index.css';
 import Home from './home';
 import Stparent from './component/stparent';
 import Funparent from './component/function/funparent';
+import Clasparent from './component/stclass/clasparent';
+
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
     <div>
     {/* <Home/> */}
     {/* <Stparent/> */}
-    <Funparent/>
+    {/* <Funparent/> */}
+    <Clasparent/>
   </div>
 );
 
